@@ -35,5 +35,7 @@ h2, h3, p, li {
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 3,5em;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
 }
