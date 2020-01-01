@@ -16,22 +16,20 @@ h2, h3, p, li {
     color: rgb(255, 255, 255);
 }
 
+ul {
+    list-style-type: circle;
+  }
+  
 
-.information {
-    border-color: black;
-}
 
-.certif {
+.certificate {
     padding-top: 30px;
 }
 
-.competences {
-    border-color: black;
-}
 
 .menu {
     padding-top: 3em;
-    padding-bottom: 3em;
+    margin-bottom: 3em;
 }
 
 h2 {
@@ -40,10 +38,27 @@ h2 {
     text-orientation: upright;
 }
 
-.sidebar {
-    
+/* New */
+.personal_information {
+    margin-top: 3em;
+}
+
+.button {
+    color: white;
+}
+
+.lien_linkedin {
+    color: orangered;
+}
+
+.list_skills {
+   
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
 }
 
 .section_training {
-    margin-bottom: 5em;
+    margin-bottom: 4em;
+    
 }

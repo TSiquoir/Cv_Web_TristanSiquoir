@@ -33,102 +33,108 @@
     <section class="container-fluid">
 
         <div class="container">
-            
-                <div class="row menu">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <div class="row">
+                <div class="col-md-8">
+                    <ul class="nav nav-tabs menu" id="myTab" role="tablist">
                         <li class="nav-item">
-                          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                          <a class="nav-link button" id="skills-tab" data-toggle="tab" href="#skills" role="tab" aria-controls="skills" aria-selected="true">Compétences</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                          <a class="nav-link button" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Formation</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                          <a class="nav-link button" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Experiences</a>
                         </li>
                       </ul>
-                      <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">.zfezefzefzef.</div>
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">.zfzfzefzefzef..</div>
-                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">.fzfzefzefzefzfpppppPPPPPPPP.</div>
-                      </div>
-                </div> 
+                  
+                   
+                        <div class="tab-content" id="myTabContent">                           
+                            <div class="tab-pane fade show active" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                                <!--Les compétences-->    
+                                <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="competences">
+                                                <h2>Compétences</h2>
+                                            </div>    
+                                        </div>
                         
-            <!--Les compétences-->    
-            <div class="row">
-                <div class="col-md-2 information">
-                    <div class="competences">
-                        <h2>Compétences</h2>
-                    </div>    
-                </div>
+                                        <div class="col-md-6 list_skills">                    
+                                                <ul>
+                                                    <li>HTML5</li>
+                                                    <li>CSS3</li>
+                                                    <li>Bootstrap</li>
+                                                    <li>Base en PHP</li>
+                                                    <li>Base en Javascript</li>
+                                                    <li>Base en SQL</li>
+                                                    <li>GitHub</li>
+                                                    <li>CMS</li>
+                                                    <li>Adobe Illustrator</li>
+                                                    <li>Adobe Photoshop</li>
+                                                    <li>Conception d'éléments graphiques</li>
+                                                </ul>
+                                        </div>
+                                </div> 
+                            </div>
 
-                <div class="col-md-6 information">                    
-                        <ul>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>Bootstrap</li>
-                            <li>Base en PHP</li>
-                            <li>Base en Javascript</li>
-                            <li>Base en SQL</li>
-                            <li>GitHub</li>
-                            <li>CMS</li>
-                            <li>Adobe Illustrator</li>
-                            <li>Adobe Photoshop</li>
-                            <li>Conception d'éléments graphiques</li>
-                        </ul>
-                </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <!--Les formations-->
+                                <div class="row section_training">
+                                        <div class="col-md-2 information">
+                                            <div class="competences">
+                                                <h2>Formation</h2>
+                                            </div>    
+                                        </div>
+                        
+                                        <div class="col-md-6 offset-md-4information"> 
+                                            <p class="formation">Développeur web (en cours) <br>De 2019 à 2020 — Alaji </p>
+                                            <p class="formation">Remise à niveau Métiers du numérique <br>2019 — CCI Formation</p>
+                                            <p class="formation">Bac Pro Artisanat et métiers d'art option métiers de l'enseigne et de la signalétique<br>De 2011 à 2013 — Lycée Hurlevent</p>
+                                            <p class="formation">Cap Métiers de l'enseigne et de la signalétique <br>De 2010 à 2011 — Lycée Hurlevent</p>
+                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                <!--Les experiences-->
+                                <div class="row">
+                                        <div class="col-md-2 information">
+                                            <div class="competences">
+                                                <h2>Experiences</h2>
+                                            </div>    
+                                        </div>
+                        
+                                        <div class="col-md-6 offset-md-4information"> 
+                                            <p class="experience">Infographiste (stage) <br> Sep.2019 - Alchimies / OpenEdge</p>
+                                            <p class="experience">Agent de production <br> 2018- Ferco</p>
+                                            <p class="experience">Agent de production <br> 2017 à 2018 - Sotralentz</p>
+                                            <p class="experience">Agent d'entretien <br>2017 - Center parc</p>
+                                        </div>   
+                                </div>
+
+                            </div>
+                        </div>
+                </div> 
+                      
+              
                                           
-                <!--Information général placé sur la droite-->
-                <div class="col-md-3 offset-md-1 sidebar">
-                    
-                    <div class="info">
-                            <p>Adresse :</p>
-                            <p>4 rue de la mésange<br> 57565 NIDERVILLER</p>
-                            <p>Tel :</p>
-                            <p>07.71.OO.11.05</p>
-                            <p>Mail :</p>
-                            <p>tristan.siquoir@laposte.net</p>
+                    <!--Information général placé sur la droite-->
+                    <div class="col-md-3 offset-md-1 sidebar">
+                        
+                        <div class="personal_information">
+                                <p>4 rue de la mésange<br> 57565 NIDERVILLER</p>   
+                                <p>07.71.OO.11.05</p>
+                                <p>tristan.siquoir@laposte.net</p>
+                                <a class="lien_linkedin" href="www.linkedin.com/in/tristan-siquoir">www.linkedin.com/in/tristan-siquoir</a>
+                                
 
-                        <div class= "certif">
-                            <h3>Certificat</h3>
-                            <p>OpenClassrooms / Apprenez à créer votre site web avec HTML5 et CSS3<br/>
-                               OpenClassrooms / Comprendre le Web</p>
+                            <div class= "certificate">
+                                <h3>Certificat</h3>
+                                <p>OpenClassrooms / Apprenez à créer votre site web avec HTML5 et CSS3<br/>
+                                OpenClassrooms / Comprendre le Web</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            
-            <!--Les formations-->
-            <div class="row section_training">
-                <div class="col-md-2 information">
-                    <div class="competences">
-                        <h2>Formation</h2>
-                    </div>    
-                </div>
-
-                <div class="col-md-6 offset-md-4information"> 
-                    <p class="formation">Développeur web (en cours) <br>De 2019 à 2020 — Alaji </p>
-                    <p class="formation">Remise à niveau Métiers du numérique <br>2019 — CCI Formation</p>
-                    <p class="formation">Bac Pro Artisanat et métiers d'art option métiers de l'enseigne et de la signalétique<br>De 2011 à 2013 — Lycée Hurlevent</p>
-                    <p class="formation">Cap Métiers de l'enseigne et de la signalétique <br>De 2010 à 2011 — Lycée Hurlevent</p>
-                </div>
-            </div>
-
-            <!--Les experiences-->
-            <div class="row">
-                <div class="col-md-2 information">
-                    <div class="competences">
-                        <h2>Experiences</h2>
-                    </div>    
-                </div>
-
-                <div class="col-md-6 offset-md-4information"> 
-                    <p class="experience">Infographiste (stage) <br> Sep.2019 - Alchimies / OpenEdge</p>
-                    <p class="experience">Agent de production <br> 2018- Ferco</p>
-                    <p class="experience">Agent de production <br> 2017 à 2018 - Sotralentz</p>
-                    <p class="experience">Agent d'entretien <br>2017 - Center parc</p>
-                </div>   
-            </div>
-
+                </div>  
 
     </section>
 
