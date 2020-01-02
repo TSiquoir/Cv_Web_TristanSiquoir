@@ -4,7 +4,9 @@ header {
 }
 section {
     background-color: rgb(0, 0, 0);
-
+    height:510px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
 h1 {
@@ -12,7 +14,7 @@ h1 {
 }
 
 
-h2, h3, p, li {
+h2, .certificat, li {
     color: rgb(255, 255, 255);
 }
 
@@ -58,7 +60,50 @@ h2 {
     justify-content: center;
 }
 
-.section_training {
-    margin-bottom: 4em;
-    
+.list_training {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.list_xp, .vertical_name {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.vertical_name {
+    font-size: 1.5em;
+}
+
+.information {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.hobbies {
+    color: black;
+}
+
+.formation, .experience, .personal_information, .title_certificate {
+    color: rgb(255, 255, 255);
+}
+.title_hobbie {
+    font-size: 1.75rem;
+}
+
+@media screen and (max-width: 767px)
+{
+    section {
+        background-color: rgb(0, 0, 0);
+        height:1000px;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    }
+
+    h2 {
+        font-size: 3,5em;
+        writing-mode: horizontal-tb;
+    }
 }
