@@ -6,8 +6,8 @@ body {
     /*Background color for FireFox*/
  background:   
     linear-gradient(217deg, #f09114, #ff880000 70.71%),
-    linear-gradient(127deg, #ff5100, #f07e14 70.71%),
-    linear-gradient(336deg, rgba(255, 136, 0, 0.8), #ff5100 70.71%);
+    linear-gradient(127deg, #ff5e00, #ff5e00 70.71%),
+    linear-gradient(336deg, rgba(255, 136, 0, 0.8), #ff5e00 70.71%);
     /*Background color for Chrome*/
     background: conic-gradient(at 0% 30%, #ff5100 0%, #f09114 30%, #f15e08 50%);
     height: 100%;
