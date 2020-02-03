@@ -3,7 +3,7 @@ html {
   }
 
 body {    
-    background: conic-gradient(at 0% 30%, rgb(255, 81, 0) 0%, rgb(240, 145, 20) 30%, #f15e08 50%);
+    background: conic-gradient(at 0% 30%, #ff5100 0%, #f09114 30%, #f15e08 50%);
     height: 100%;
     margin: 0;
     padding: 0;
